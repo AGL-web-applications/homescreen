@@ -4,6 +4,8 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+const ZipPlugin = require('zip-webpack-plugin');
+
 
 module.exports = {
     mode: 'production',
@@ -40,6 +42,12 @@ module.exports = {
         new MiniCSSExtractPlugin({
             filename: 'app.css',
             path: __dirname + '/dist'
+        }),
+        new ZipPlugin({
+            path: __dirname + '/dist',
+            filename: 'homescreen',
+            extension: 'wgt',
+            exclude: []
         })
     ],
     module: {
