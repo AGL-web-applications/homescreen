@@ -25,6 +25,11 @@ module.exports = {
             {
                 from: 'src/config.xml',
                 flatten: true
+            },
+            {
+                from: 'src/mockups/*',
+                to: 'mockups/',
+                flatten: true
             }
         ]),
         new HtmlWebpackPlugin({
@@ -53,7 +58,25 @@ module.exports = {
                     "css-loader",
                     "sass-loader"
                 ]
+            },
+            {
+                test: /\.(gif|png|jpe?g|svg)$/i,
+                use: [
+                    'file-loader',
+                    {
+                        loader: "image-webpack-loader",
+                        options: {
+                            bypassOnDebug: true, // webpack@1.x
+                            disable: true, // webpack@2.x and newer
+                        },
+                    }
+                ]
             }
         ]
+    },
+    devServer: {
+        contentBase: path.join(__dirname, 'dist'),
+        compress: true,
+        port: 9000
     }
 }; 
