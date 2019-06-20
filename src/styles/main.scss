@@ -6,7 +6,7 @@ html {
 body {
     font-size: 1.2rem;
     font-family: Arial;
-    color: #999999;
+    color: map-get($colors, font);
     margin: 5%;
 
     .parent {

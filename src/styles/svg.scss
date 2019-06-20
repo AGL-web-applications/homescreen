@@ -4,7 +4,7 @@ body {
         polygon,
         linearGradient,
         rect {
-            fill: #00ADDC !important;
+            fill: map-get($colors, primary) !important;
         }
 
         circle {
