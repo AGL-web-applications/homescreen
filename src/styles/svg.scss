@@ -1,0 +1,18 @@
+body {
+    svg {
+        path,
+        polygon,
+        linearGradient,
+        rect {
+            fill: #00ADDC !important;
+        }
+
+        circle {
+            fill: none !important;
+        }
+
+        text {
+            display: none !important;
+        }
+    }
+}

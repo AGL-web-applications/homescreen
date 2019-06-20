@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    background-size: cover;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: Arial;
+    color: #999999;
+    margin: 5%;
+
+    .parent {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+
+        .item {
+            .name {
+                width: 100%;
+                text-align: center;
+                text-transform: uppercase;
+                margin-top: -20%;
+            }
+        }
+    }
+}
