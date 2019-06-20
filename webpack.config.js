@@ -32,12 +32,17 @@ module.exports = {
                 from: 'src/mockups/*',
                 to: 'mockups/',
                 flatten: true
+            },
+            {
+                from: 'src/images/*',
+                to: 'images/',
+                flatten: true
             }
         ]),
         new HtmlWebpackPlugin({
             template: 'src/index.html',
             filename: 'index.html',
-            inject: 'head'
+            inject: 'body'
         }),
         new MiniCSSExtractPlugin({
             filename: 'app.css',

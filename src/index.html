@@ -6,43 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
     <body>
-        <div class="parent">
-            <div class="item">
-                <img src="mockups/dashboard.svg" onload="SVGInject(this);">
-                <div class="name">
-                    DASHBOARD
+        <div id="AppContainer" class="parent">
+            <script id="item-template" type="x-tmpl-mustache">
+                <div class="item">
+                    <img class="icon" src="{{ icon }}" onload="SVGInject(this);">
+                    <div class="name">
+                        {{ name }}
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <img src="mockups/hvac.svg" onload="SVGInject(this);">
-                <div class="name">
-                    HVAC
-                </div>
-            </div>
-            <div class="item">
-                <img src="mockups/multimedia.svg" onload="SVGInject(this);">
-                <div class="name">
-                    MULTIMEDIA
-                </div>
-            </div>
-            <div class="item">
-                <img src="mockups/phone.svg" onload="SVGInject(this);">
-                <div class="name">
-                    PHONE
-                </div>
-            </div>
-            <div class="item">
-                <img src="mockups/radio.svg" onload="SVGInject(this);">
-                <div class="name">
-                    RADIO
-                </div>
-            </div>
-            <div class="item">
-                <img src="mockups/settings.svg" onload="SVGInject(this);">
-                <div class="name">
-                    SETTINGS
-                </div>
-            </div>
+            </script>
+        </div>
+        <div class="log" id="log">
+
         </div>
     </body>
 </html>
