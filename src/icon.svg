@@ -1,83 +1,315 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
 <svg
+   xmlns:i="&amp;#38;ns_ai;"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="15mm"
-   height="15mm"
-   viewBox="0 0 15 15"
    version="1.1"
-   id="svg8"
-   inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="icon.svg"
-   inkscape:export-filename="/home/jaragunde/projects/agl-wrt/wam-demo-applications/html5-homescreen/icon.png"
-   inkscape:export-xdpi="338.66669"
-   inkscape:export-ydpi="338.66669">
-  <defs
-     id="defs2" />
-  <sodipodi:namedview
-     id="base"
+   x="0px"
+   y="0px"
+   viewBox="0 0 320 320"
+   style="enable-background:new 0 0 320 320;"
+   xml:space="preserve"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="icon.svg"><metadata
+     id="metadata1292"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs1290"><linearGradient
+       id="linearGradient4270"
+       gradientUnits="userSpaceOnUse"
+       x1="145.3286"
+       y1="203.8951"
+       x2="191.62849"
+       y2="70.363701"><stop
+         offset="0"
+         style="stop-color:#59FF7F"
+         id="stop928-1" /><stop
+         offset="1"
+         style="stop-color:#6BFBFF"
+         id="stop930-6" /></linearGradient><linearGradient
+       inkscape:collect="always"
+       xlink:href="#SVGID_94_"
+       id="linearGradient4310"
+       x1="106.10169"
+       y1="133.39999"
+       x2="184.2373"
+       y2="133.39999"
+       gradientUnits="userSpaceOnUse" /></defs><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.9195959"
-     inkscape:cx="36.15848"
-     inkscape:cy="20.55416"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:window-width="1680"
+     inkscape:window-height="1005"
+     id="namedview1288"
      showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     units="mm"
-     showguides="false" />
-  <metadata
-     id="metadata5">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-66.248444,-93.767853)">
-    <circle
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26282853;stroke-opacity:1"
-       id="path814"
-       cx="73.748444"
-       cy="101.26785"
-       r="7.3685856" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:9.66912842px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2417282"
-       x="66.377312"
-       y="104.22846"
-       id="text817"><tspan
-         sodipodi:role="line"
-         id="tspan815"
-         x="66.377312"
-         y="104.22846"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Carlito;-inkscape-font-specification:Carlito;stroke-width:0.2417282">&lt;h&gt;</tspan></text>
-  </g>
-</svg>
+     inkscape:zoom="2.8284271"
+     inkscape:cx="205.32163"
+     inkscape:cy="257.88943"
+     inkscape:window-x="1971"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Multimedia_Inactive_copy" /><style
+     type="text/css"
+     id="style4">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{opacity:0.4;fill:url(#SVGID_1_);}
+	.st3{fill:url(#SVGID_2_);}
+	.st4{fill:#FFFFFF;}
+	.st5{font-family:'Roboto-Regular';}
+	.st6{font-size:25px;}
+	.st7{letter-spacing:6;}
+	.st8{fill:url(#SVGID_3_);}
+	.st9{fill:url(#SVGID_4_);}
+	.st10{fill:url(#SVGID_5_);}
+	.st11{fill:url(#SVGID_6_);}
+	.st12{fill:url(#SVGID_7_);}
+	.st13{fill:url(#SVGID_8_);}
+	.st14{fill:url(#SVGID_9_);}
+	.st15{fill:url(#SVGID_10_);}
+	.st16{fill:url(#SVGID_11_);}
+	.st17{fill:url(#SVGID_12_);}
+	.st18{fill:url(#SVGID_13_);}
+	.st19{fill:url(#SVGID_14_);}
+	.st20{fill:url(#SVGID_15_);}
+	.st21{fill:url(#SVGID_16_);}
+	.st22{fill:url(#SVGID_17_);}
+	.st23{fill:url(#SVGID_18_);}
+	.st24{opacity:0.29;}
+	.st25{fill:url(#SVGID_19_);}
+	.st26{fill:url(#SVGID_20_);}
+	.st27{fill:url(#SVGID_21_);}
+	.st28{fill:url(#SVGID_22_);}
+	.st29{fill:url(#SVGID_23_);}
+	.st30{fill:url(#SVGID_24_);}
+	.st31{fill:url(#SVGID_25_);}
+	.st32{fill:url(#SVGID_26_);}
+	.st33{fill:url(#SVGID_27_);}
+	.st34{fill:url(#SVGID_28_);}
+	.st35{fill:url(#SVGID_29_);}
+	.st36{fill:url(#SVGID_30_);}
+	.st37{fill:url(#SVGID_31_);}
+	.st38{fill:url(#SVGID_32_);}
+	.st39{fill:url(#SVGID_33_);}
+	.st40{fill:url(#SVGID_34_);}
+	.st41{fill:url(#SVGID_35_);}
+	.st42{fill:url(#SVGID_36_);}
+	.st43{opacity:0.4;fill:url(#SVGID_37_);}
+	.st44{fill:url(#SVGID_38_);}
+	.st45{fill:url(#SVGID_39_);}
+	.st46{fill:url(#SVGID_40_);}
+	.st47{fill:url(#SVGID_41_);}
+	.st48{fill:url(#SVGID_42_);}
+	.st49{fill:url(#SVGID_43_);}
+	.st50{fill:url(#SVGID_44_);}
+	.st51{display:inline;opacity:0.29;}
+	.st52{display:inline;fill:url(#SVGID_45_);}
+	.st53{display:inline;fill:url(#SVGID_46_);}
+	.st54{display:inline;fill:#FFFFFF;}
+	.st55{display:inline;fill:url(#SVGID_47_);}
+	.st56{display:inline;fill:url(#SVGID_48_);}
+	.st57{display:inline;fill:url(#SVGID_49_);}
+	.st58{display:inline;fill:url(#SVGID_50_);}
+	.st59{display:inline;fill:url(#SVGID_51_);}
+	.st60{display:inline;fill:url(#SVGID_52_);}
+	.st61{opacity:0.4;fill:url(#SVGID_53_);}
+	.st62{fill:url(#SVGID_54_);}
+	.st63{fill:url(#SVGID_55_);}
+	.st64{fill:url(#SVGID_56_);}
+	.st65{fill:url(#SVGID_57_);}
+	.st66{fill:url(#SVGID_58_);}
+	.st67{opacity:0.4;fill:url(#SVGID_59_);}
+	.st68{fill:url(#SVGID_60_);}
+	.st69{fill:url(#SVGID_61_);}
+	.st70{fill:url(#SVGID_62_);}
+	.st71{fill:url(#SVGID_63_);}
+	.st72{fill:url(#SVGID_64_);}
+	.st73{fill:url(#SVGID_65_);}
+	.st74{fill:url(#SVGID_66_);}
+	.st75{fill:url(#SVGID_67_);}
+	.st76{fill:url(#SVGID_68_);}
+	.st77{fill:url(#SVGID_69_);}
+	.st78{fill:url(#SVGID_70_);}
+	.st79{fill:url(#SVGID_71_);}
+	.st80{fill:url(#SVGID_72_);}
+	.st81{fill:url(#SVGID_73_);}
+	.st82{fill:url(#SVGID_74_);}
+	.st83{fill:url(#SVGID_75_);}
+	.st84{fill:url(#SVGID_76_);}
+	.st85{fill:url(#SVGID_77_);}
+	.st86{fill:url(#SVGID_78_);}
+	.st87{fill:url(#SVGID_79_);}
+	.st88{fill:url(#SVGID_80_);}
+	.st89{fill:url(#SVGID_81_);}
+	.st90{fill:url(#SVGID_82_);}
+	.st91{fill:url(#SVGID_83_);}
+	.st92{fill:url(#SVGID_84_);}
+	.st93{fill:url(#SVGID_85_);}
+	.st94{fill:url(#SVGID_86_);}
+	.st95{opacity:0.4;fill:url(#SVGID_87_);}
+	.st96{fill:url(#SVGID_88_);}
+	.st97{fill:url(#SVGID_89_);}
+	.st98{fill:url(#SVGID_90_);}
+	.st99{fill:url(#SVGID_91_);}
+	.st100{fill:url(#SVGID_92_);}
+	.st101{fill:url(#SVGID_93_);}
+	.st102{fill:url(#SVGID_94_);}
+	.st103{opacity:0.4;fill:url(#SVGID_95_);}
+	.st104{fill:url(#SVGID_96_);}
+	.st105{fill:url(#SVGID_97_);}
+	.st106{fill:url(#SVGID_98_);}
+	.st107{fill:url(#SVGID_99_);}
+	.st108{fill:url(#SVGID_100_);}
+	.st109{fill:url(#SVGID_101_);}
+	.st110{display:inline;fill:url(#SVGID_102_);}
+	.st111{display:inline;fill:url(#SVGID_103_);}
+	.st112{fill:url(#SVGID_104_);}
+	.st113{fill:url(#SVGID_105_);}
+	.st114{fill:url(#SVGID_106_);}
+	.st115{fill:url(#SVGID_107_);}
+	.st116{fill:url(#SVGID_108_);}
+	.st117{opacity:0.4;fill:url(#SVGID_109_);}
+	.st118{fill:url(#SVGID_110_);}
+	.st119{fill:url(#SVGID_111_);}
+	.st120{fill:url(#SVGID_112_);}
+	.st121{fill:url(#SVGID_113_);}
+	.st122{fill:url(#SVGID_114_);}
+	.st123{opacity:0.4;fill:url(#SVGID_115_);}
+	.st124{fill:url(#SVGID_116_);}
+	.st125{fill:url(#SVGID_117_);}
+	.st126{fill:url(#SVGID_118_);}
+	.st127{display:inline;fill:url(#SVGID_119_);}
+	.st128{display:inline;fill:url(#SVGID_120_);}
+	.st129{fill:url(#SVGID_121_);}
+	.st130{fill:url(#SVGID_122_);}
+</style><switch
+     id="switch6"><g
+       i:extraneous="self"
+       id="g8"><g
+         id="Multimedia_Inactive_copy"><circle
+           class="st24"
+           cx="159.7"
+           cy="133.4"
+           r="101.9"
+           id="circle884" /><linearGradient
+           id="SVGID_91_"
+           gradientUnits="userSpaceOnUse"
+           x1="115.9317"
+           y1="254.1836"
+           x2="256.3852"
+           y2="-133.5267"><stop
+             offset="0"
+             style="stop-color:#8BC53F"
+             id="stop887" /><stop
+             offset="2.015080e-02"
+             style="stop-color:#7CCB56;stop-opacity:0.9678"
+             id="stop889" /><stop
+             offset="6.089833e-02"
+             style="stop-color:#62D67D;stop-opacity:0.9028"
+             id="stop891" /><stop
+             offset="0.1057"
+             style="stop-color:#4BDFA0;stop-opacity:0.8312"
+             id="stop893" /><stop
+             offset="0.1543"
+             style="stop-color:#38E7BE;stop-opacity:0.7537"
+             id="stop895" /><stop
+             offset="0.2077"
+             style="stop-color:#28EED6;stop-opacity:0.6684"
+             id="stop897" /><stop
+             offset="0.2681"
+             style="stop-color:#1CF3E8;stop-opacity:0.572"
+             id="stop899" /><stop
+             offset="0.3394"
+             style="stop-color:#13F6F5;stop-opacity:0.4581"
+             id="stop901" /><stop
+             offset="0.4323"
+             style="stop-color:#0EF8FD;stop-opacity:0.3098"
+             id="stop903" /><stop
+             offset="0.6264"
+             style="stop-color:#0DF9FF;stop-opacity:0"
+             id="stop905" /></linearGradient><circle
+           class="st99"
+           cx="159.7"
+           cy="133.4"
+           r="101.9"
+           id="circle907" /><linearGradient
+           id="SVGID_92_"
+           gradientUnits="userSpaceOnUse"
+           x1="4.0481"
+           y1="287.9492"
+           x2="320.4859"
+           y2="-15.4029"
+           gradientTransform="matrix(1 5.464556e-03 -5.464556e-03 1 -2.0192 -3.0212)"><stop
+             offset="0"
+             style="stop-color:#59FF7F"
+             id="stop910" /><stop
+             offset="1"
+             style="stop-color:#6BFBFF"
+             id="stop912" /></linearGradient><path
+           class="st100"
+           d="M160,238.8c-0.2,0-0.4,0-0.6,0c-58-0.3-104.9-47.7-104.6-105.7C55.2,75.3,102.3,28.5,160,28.5     c0.2,0,0.4,0,0.6,0c58,0.3,104.9,47.7,104.6,105.7l0,0C264.8,192,217.7,238.8,160,238.8z M160,32.2     c-55.7,0-101.2,45.2-101.5,100.9c-0.3,55.9,45,101.7,100.9,102c0.2,0,0.4,0,0.6,0c55.7,0,101.2-45.2,101.5-100.9     c0.3-55.9-45-101.7-100.9-102C160.4,32.2,160.2,32.2,160,32.2z"
+           id="path914" /><g
+           id="g916"><text
+             transform="matrix(1 0 0 1 53.5841 284.7119)"
+             class="st4 st5 st6 st7"
+             id="text918">MULTIMEDIA</text>
+<linearGradient
+             id="SVGID_93_"
+             gradientUnits="userSpaceOnUse"
+             x1="140.5445"
+             y1="202.2363"
+             x2="186.8444"
+             y2="68.7049"><stop
+               offset="0"
+               style="stop-color:#59FF7F"
+               id="stop921" /><stop
+               offset="1"
+               style="stop-color:#6BFBFF"
+               id="stop923" /></linearGradient><linearGradient
+             id="SVGID_94_"
+             gradientUnits="userSpaceOnUse"
+             x1="145.3286"
+             y1="203.8951"
+             x2="191.6285"
+             y2="70.3637"><stop
+               offset="0"
+               style="stop-color:#59FF7F"
+               id="stop928" /><stop
+               offset="1"
+               style="stop-color:#6BFBFF"
+               id="stop930" /></linearGradient><g
+             id="g4299"
+             transform="translate(14.530503,0)"
+             style="fill-opacity:1.0;fill:url(#linearGradient4310)"><rect
+               y="93.399994"
+               x="106.10169"
+               height="80"
+               width="13.898306"
+               id="rect4237"
+               style="fill:url(#linearGradient4310);fill-opacity:1.0;stroke:none" /><rect
+               y="93.399994"
+               x="170.33899"
+               height="80"
+               width="13.898306"
+               id="rect4237-0"
+               style="fill:url(#linearGradient4310);fill-opacity:1.0;stroke:none" /><rect
+               y="125.60339"
+               x="108.98304"
+               height="15.593221"
+               width="71.186447"
+               id="rect4237-0-7"
+               style="fill:url(#linearGradient4310);fill-opacity:1.0;stroke:none" /></g></g></g></g></switch></svg>
