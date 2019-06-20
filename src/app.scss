@@ -26,15 +26,14 @@
 
 html {
     height: 100%;
+    background-size: cover;
 }
 
 body {
-    font-size: 2rem;
-    font-family: Roboto, Arial;
-    color: #CCCCCC;
-    height: 100%;
-    width: 100%;
-    margin: 0;
+    font-size: 1.2rem;
+    font-family: Arial;
+    color: #999999;
+    margin: 5%;
 
     svg {
         path,
@@ -45,7 +44,7 @@ body {
         }
 
         circle {
-            fill: rgba(0,0,0, 0.4) !important;
+            fill: none !important;
         }
 
         text {
@@ -58,7 +57,7 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         height: 100%;
 
         .item {
