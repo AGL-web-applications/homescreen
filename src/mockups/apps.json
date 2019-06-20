@@ -1,0 +1,26 @@
+[
+    {
+        "id": "hvac",
+        "name": "HVAC"
+    },
+    {
+        "id": "phone",
+        "name": "PHONE"
+    },
+    {
+        "id": "radio",
+        "name": "RADIO"
+    },
+    {
+        "id": "multimedia",
+        "name": "MULTIMEDIA"
+    },
+    {
+        "id": "dashboard",
+        "name": "DASHBOARD"
+    },
+    {
+        "id": "settings",
+        "name": "SETTINGS"
+    }
+]
