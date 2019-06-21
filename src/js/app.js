@@ -46,14 +46,35 @@ function load_application_list() {
     });
 }
 
-function init() {
+export function launch(app) {
+    var appId = app.getAttribute('app-id');
+    var ws = new afb.ws(function() {
+        var api_verb = "afm-main/start";
+        var request = {id: appId};
+        ws.call(api_verb, request).then(
+            function(obj) {
+                log("success: " + obj.response);
+            },
+            function(obj) {
+                //TODO Manage errors
+                log("failure");
+            }
+        );
+    },
+    function() {
+        //TODO Manage errors
+        log("ws aborted");
+    });
+}
+
+export function init() {
     template = document.getElementById('item-template').innerHTML;
     Mustache.parse(template);
+
+    // host: "raspberrypi3.local:31022",
     afb = new AFB({
-        host: "raspberrypi3.local:31022",
+        host: host+":"+port,
         token: token
     });
     load_application_list();
 }
-
-document.addEventListener('DOMContentLoaded', init);

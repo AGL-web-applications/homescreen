@@ -8,12 +8,12 @@
     <body>
         <div id="AppContainer" class="parent">
             <script id="item-template" type="x-tmpl-mustache">
-                <div class="item">
+                <a href="#" class="item" app-id="{{ id }}" onclick="window.launch(this);">
                     <img class="icon" src="{{ icon }}" onload="SVGInject(this);">
                     <div class="name">
                         {{ name }}
                     </div>
-                </div>
+                </a>
             </script>
         </div>
         <div class="log" id="log">
