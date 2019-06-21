@@ -23,6 +23,9 @@ body {
         height: 100%;
 
         .item {
+            color: map-get($colors, font);
+            text-decoration: none;
+
             .icon {
                 width: 100%;
                 height: 100%;
