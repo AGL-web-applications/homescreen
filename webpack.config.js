@@ -50,7 +50,7 @@ module.exports = {
         }),
         new ZipPlugin({
             path: __dirname + '/dist',
-            filename: 'homescreen',
+            filename: 'hvac',
             extension: 'wgt',
             exclude: []
         })
