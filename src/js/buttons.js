@@ -9,42 +9,14 @@ var buttons = {
     front: false
 };
 
+function update(node, value) {
+    node.setAttribute('value', value);
+}
+
 module.exports = {
-    update: function() {
-        for( var button in buttons ) {
-            document.getElementById(button+'button').setAttribute('value', buttons[button]);
-        }
-    },
-    ac: function() {
-        buttons.ac = !buttons.ac;
-        this.update();
-    },
-    auto: function() {
-        buttons.auto = !buttons.auto;
-        this.update();
-    },
-    circulation: function() {
-        buttons.circulation = !buttons.circulation;
-        this.update();
-    },
-    down: function() {
-        buttons.down = !buttons.down;
-        this.update();
-    },
-    up: function() {
-        buttons.up = !buttons.up;
-        this.update();
-    },
-    right: function() {
-        buttons.right = !buttons.right;
-        this.update();
-    },
-    rear: function() {
-        buttons.rear = !buttons.rear;
-        this.update();
-    },
-    front: function() {
-        buttons.front = !buttons.front;
-        this.update();
+    toggle: function(node) {
+        var key = node.getAttribute('key');
+        buttons[key] = !buttons[key];
+        update(node, buttons[key]);
     }
 }

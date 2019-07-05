@@ -28,7 +28,7 @@
                 <img class="one" src="../images/HMI_HVAC_ChairIndicator_One.svg"/>
                 <img class="two" src="../images/HMI_HVAC_ChairIndicator_Two.svg"/>
             </a>
-            <a id="acbutton" value="false" href="#" class="ac item button" onclick="BUTTON.ac()">
+            <a key="ac" value="false" href="#" class="ac item button" onclick="BUTTON.toggle(this)">
                 <img class="disabled" src="../images/HMI_HVAC_Inactive.svg"/>
                 <img class="enabled" src="../images/HMI_HVAC_Active.svg"/>
                 <div class="label">
@@ -46,14 +46,14 @@
                 <div id="lefttemperature" class="temperatures-container" onscroll="TEMPERATURE.left(this)"></div>
             </div>
             <div class="block item">
-                <a id="autobutton" value="false" href="#" class="auto item button" onclick="BUTTON.auto()">
+                <a key="auto" value="false" href="#" class="auto item button" onclick="BUTTON.toggle(this)">
                     <img class="disabled" src="../images/HMI_HVAC_Inactive.svg"/>
                     <img class="enabled" src="../images/HMI_HVAC_Active.svg"/>
                     <div class="label">
                         AUTO
                     </div>
                 </a>
-                <a id="circulationbutton" value="false" href="#" class="circulation item button" onclick="BUTTON.circulation()">
+                <a key="circulation" value="false" href="#" class="circulation item button" onclick="BUTTON.toggle(this)">
                     <img class="disabled" src="../images/HMI_HVAC_Circulation_Inactive.svg"/>
                     <img class="enabled" src="../images/HMI_HVAC_Circulation_Active.svg"/>
                 </a>
@@ -63,23 +63,23 @@
             </div>
         </div>
         <div class="bottom">
-            <a id="downbutton" value="false" href="#" class="down item button" onclick="BUTTON.down()">
+            <a key="down" value="false" href="#" class="down item button" onclick="BUTTON.toggle(this)">
                 <img class="disabled" src="../images/HMI_HVAC_AirDown_Inactive.svg">
                 <img class="enabled" src="../images/HMI_HVAC_AirDown_Active.svg">
             </a>
-            <a id="upbutton" value="false" href="#" class="up item button" onclick="BUTTON.up()">
+            <a key="up" value="false" href="#" class="up item button" onclick="BUTTON.toggle(this)">
                 <img class="disabled" src="../images/HMI_HVAC_AirUp_Inactive.svg">
                 <img class="enabled" src="../images/HMI_HVAC_AirUp_Active.svg">
             </a>
-            <a id="rightbutton" value="false" href="#" class="right item button" onclick="BUTTON.right()">
+            <a key="right" value="false" href="#" class="right item button" onclick="BUTTON.toggle(this)">
                 <img class="disabled" src="../images/HMI_HVAC_AirRight_Inactive.svg">
                 <img class="enabled" src="../images/HMI_HVAC_AirRight_Active.svg">
             </a>
-            <a id="rearbutton" value="false" href="#" class="rear item button" onclick="BUTTON.rear()">
+            <a key="rear" value="false" href="#" class="rear item button" onclick="BUTTON.toggle(this)">
                 <img class="disabled" src="../images/HMI_HVAC_Rear_Inactive.svg">
                 <img class="enabled" src="../images/HMI_HVAC_Rear_Active.svg">
             </a>
-            <a id="frontbutton" value="false" href="#" class="front item button" onclick="BUTTON.front()">
+            <a key="front" value="false" href="#" class="front item button" onclick="BUTTON.toggle(this)">
                 <img class="disabled" src="../images/HMI_HVAC_Front_Inactive.svg">
                 <img class="enabled" src="../images/HMI_HVAC_Front_Active.svg">
             </a>
