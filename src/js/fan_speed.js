@@ -1,10 +1,13 @@
-module.exports = {
-    set: function(value) {
-        document.getElementById('FanSpeedProgress').value = value;
-        document.getElementById('FanSpeedInput').value = value;
-    },
-    update: function( value ) {
-        this.set(value);
+var value = 0;
 
+function update(node, value) {
+    node.value = value;
+    node.parentNode.getElementsByTagName('progress')[0].value = value;
+}
+
+module.exports = {
+    set: function(node) {
+        value = node.value;
+        update(node, value);
     }
 }

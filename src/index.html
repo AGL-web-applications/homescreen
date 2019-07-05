@@ -12,8 +12,8 @@
             </div>
             <div class="fanSpeed">
                 <div class="fanSpeedContainer">
-                    <input id="FanSpeedInput" type="range" min="1" value="1" max="100" onchange="FANSPEED.update(this.value)">
-                    <progress id="FanSpeedProgress" value="1" max="100"></progress>
+                    <input id="FanSpeed" type="range" min="1" value="1" max="100" onchange="FANSPEED.set(this)">
+                    <progress value="1" max="100"></progress>
                 </div>
                 <div class="label">
                     FAN SPEED
@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="center">
-            <a id="LeftChair" value="0" href="#" class="seat left item button" onclick="CHAIR.left()">
+            <a id="LeftChair" value="0" href="#" class="seat left item button" onclick="CHAIR.left(this)">
                 <img class="off" src="../images/HMI_HVAC_Left_Chair_OFF.svg"/>
                 <img class="one two" src="../images/HMI_HVAC_Left_Chair_ON.svg"/>
                 <img class="off" src="../images/HMI_HVAC_ChairIndicator_OFF.svg"/>
@@ -35,7 +35,7 @@
                     A/C
                 </div>
             </a>
-            <a id="RightChair" value="0" href="#" class="seat right item button" onclick="CHAIR.right()">
+            <a id="RightChair" value="0" href="#" class="seat right item button" onclick="CHAIR.right(this)">
                 <img class="off" src="../images/HMI_HVAC_Right_Chair_OFF.svg"/>
                 <img class="one two" src="../images/HMI_HVAC_Right_Chair_ON.svg"/>
                 <img class="off" src="../images/HMI_HVAC_ChairIndicator_OFF.svg"/>
