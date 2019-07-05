@@ -5,8 +5,16 @@
     }
 
     body {
-        .item {
-            flex-basis: 25%;
+
+        .center {
+            width: 80%;
+            float: left;
         }
+
+        .bottom {
+            flex-direction: column;
+            width: 20%;
+        }
+
     }
 }
