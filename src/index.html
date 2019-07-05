@@ -19,7 +19,6 @@
                     FAN SPEED
                 </div>
             </div>
-
         </div>
         <div class="center">
             <a id="LeftChair" value="0" href="#" class="seat left item button" onclick="CHAIR.left()">
@@ -44,59 +43,7 @@
                 <img class="two" src="../images/HMI_HVAC_ChairIndicator_Two.svg"/>
             </a>
             <div class="temperatures item">
-                <div class="temperatures-container">
-                    <div class="temperature">
-                        LO
-                    </div>
-                    <div class="temperature">
-                        16º
-                    </div>
-                    <div class="temperature">
-                        17º
-                    </div>
-                    <div class="temperature">
-                        18º
-                    </div>
-                    <div class="temperature">
-                        19º
-                    </div>
-                    <div class="temperature">
-                        20º
-                    </div>
-                    <div class="temperature">
-                        21º
-                    </div>
-                    <div class="temperature">
-                        22º
-                    </div>
-                    <div class="temperature">
-                        23º
-                    </div>
-                    <div class="temperature">
-                        24º
-                    </div>
-                    <div class="temperature">
-                        25º
-                    </div>
-                    <div class="temperature">
-                        26º
-                    </div>
-                    <div class="temperature">
-                        27º
-                    </div>
-                    <div class="temperature">
-                        28º
-                    </div>
-                    <div class="temperature">
-                        29º
-                    </div>
-                    <div class="temperature">
-                        HI
-                    </div>
-                    <div class="temperature">
-
-                    </div>
-                </div>
+                <div id="lefttemperature" class="temperatures-container" onscroll="TEMPERATURE.left(this)"></div>
             </div>
             <div class="block item">
                 <a id="autobutton" value="false" href="#" class="auto item button" onclick="BUTTON.auto()">
@@ -111,60 +58,8 @@
                     <img class="enabled" src="../images/HMI_HVAC_Circulation_Active.svg"/>
                 </a>
             </div>
-            <div class=" temperatures item">
-                <div class="temperatures-container">
-                    <div class="temperature">
-                        LO
-                    </div>
-                    <div class="temperature">
-                        16º
-                    </div>
-                    <div class="temperature">
-                        17º
-                    </div>
-                    <div class="temperature">
-                        18º
-                    </div>
-                    <div class="temperature">
-                        19º
-                    </div>
-                    <div class="temperature">
-                        20º
-                    </div>
-                    <div class="temperature">
-                        21º
-                    </div>
-                    <div class="temperature">
-                        22º
-                    </div>
-                    <div class="temperature">
-                        23º
-                    </div>
-                    <div class="temperature">
-                        24º
-                    </div>
-                    <div class="temperature">
-                        25º
-                    </div>
-                    <div class="temperature">
-                        26º
-                    </div>
-                    <div class="temperature">
-                        27º
-                    </div>
-                    <div class="temperature">
-                        28º
-                    </div>
-                    <div class="temperature">
-                        29º
-                    </div>
-                    <div class="temperature">
-                        HI
-                    </div>
-                    <div class="temperature">
-
-                    </div>
-                </div>
+            <div class="temperatures item">
+                <div id="righttemperature" class="temperatures-container" onscroll="TEMPERATURE.right(this)"></div>
             </div>
         </div>
         <div class="bottom">

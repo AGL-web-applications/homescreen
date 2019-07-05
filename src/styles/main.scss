@@ -191,16 +191,17 @@ body {
                     width: 100%;
                     height: 480px;
                     overflow-y: scroll;
-                    scroll-snap-type: y mandatory;
-                    scroll-behavior: smooth;
 
                     .temperature {
+                        &[enabled='true'] {
+                            color: map-get($colors, primary);
+                        }
+                        &[enabled='false'] {
+                            color: map-get($colors, grey);
+                        }
                         font-size: 10rem;
                         text-align: center;
                         width: 100%;
-                        height: 240px;
-                        line-height: 240px;
-                        scroll-snap-align: start;
                     }
                 }
             }

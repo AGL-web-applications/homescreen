@@ -13,7 +13,8 @@ module.exports = {
         index: './src/index.js',
         FANSPEED: './src/js/fan_speed.js',
         CHAIR: './src/js/chair.js',
-        BUTTON: './src/js/buttons.js'
+        BUTTON: './src/js/buttons.js',
+        TEMPERATURE: './src/js/temperature.js'
     },
     output: {
         path: __dirname + '/dist',
