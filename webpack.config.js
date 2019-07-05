@@ -9,10 +9,18 @@ const ZipPlugin = require('zip-webpack-plugin');
 
 module.exports = {
     mode: 'production',
-    entry: './src/index.js',
+    entry: {
+        index: './src/index.js',
+        FANSPEED: './src/js/fan_speed.js',
+        CHAIR: './src/js/chair.js',
+        BUTTON: './src/js/buttons.js'
+    },
     output: {
-        filename: 'index.js',
-        path: __dirname + '/dist'
+        path: __dirname + '/dist',
+        filename: '[name].js',
+        libraryTarget: 'var',
+        // `library` determines the name of the global variable
+        library: '[name]'
     },
     optimization: {
         minimizer: [new UglifyJsPlugin()],

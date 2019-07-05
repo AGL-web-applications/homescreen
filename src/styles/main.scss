@@ -61,6 +61,31 @@ body {
     color: map-get($colors, font);
     margin: 5%;
 
+    a {
+        color: map-get($colors, font);
+    }
+
+    .button {
+        &[value="true"] {
+            color: map-get($colors, primary);
+            .disabled {
+                display: none;
+            }
+            .enabled {
+                display: block;
+            }
+        }
+        &[value="false"] {
+            color: map-get($colors, grey);
+            .disabled {
+                display: block;
+            }
+            .enabled {
+                display: none;
+            }
+        }
+    }
+
     .top {
         display: flex;
         flex-direction: row;
@@ -114,6 +139,34 @@ body {
                     width: 50%;
                     margin: 0 25%;
                 }
+
+                &[value="0"] {
+                    .one, .two {
+                        display: none;
+                    }
+                    .off {
+                        display: block;
+                    }
+                }
+
+                &[value="1"] {
+                    .off, .two {
+                        display: none;
+                    }
+                    .one {
+                        display: block;
+                    }
+                }
+
+                &[value="2"] {
+                    .one, .off {
+                        display: none;
+                    }
+                    .two {
+                        display: block;
+                    }
+                }
+
             }
 
             &.circulation {
