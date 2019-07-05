@@ -42,11 +42,11 @@ progress {
 }
 
 ::-webkit-progress-bar {
-    background: #848286;
+    background: map-get($colors, grey);
 }
 
 ::-webkit-progress-value {
-  background-color: #00ADDC;
+    background-color: map-get($colors, primary);
 }
 
 html {
