@@ -1,19 +1,17 @@
 var left = 0;
 var right = 0;
 
+function update(node, value){
+    node.setAttribute('value', value);
+}
+
 module.exports = {
-    update_left: function() {
-        document.getElementById('LeftChair').setAttribute('value', left);
-    },
-    left: function() {
+    left: function(node) {
         left = (left + 1) % 3;
-        this.update_left();
+        update(node, left);
     },
-    update_right: function() {
-        document.getElementById('RightChair').setAttribute('value', right);
-    },
-    right: function() {
+    right: function(node) {
         right = (right + 1) % 3;
-        this.update_right();
+        update(node, right);
     },
 }
