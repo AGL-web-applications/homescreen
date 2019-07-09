@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="webapps-html5-hvac" version="5.0.0">
-  <name>HTML5 HVAC</name>
+<widget xmlns="http://www.w3.org/ns/widgets" id="webapps-hvac" version="0.0.0">
+  <name>HVAC</name>
   <icon src="icon.svg"/>
   <content src="index.html" type="text/html"/>
   <description>HTML5 HVAC demo</description>
@@ -14,7 +14,7 @@
   </feature>
   <feature name="urn:AGL:widget:required-api">
     <param name="windowmanager" value="ws" />
-    <param name="hvac" value="ws" />
+    <param name="homescreen" value="ws" />
     <param name="afm-main" value="ws" />
   </feature>
 </widget>
