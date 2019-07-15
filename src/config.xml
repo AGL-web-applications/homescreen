@@ -5,7 +5,7 @@
   <content src="index.html" type="text/html"/>
   <description>HTML5 HVAC demo</description>
   <author>Igalia, S.L.</author>
-  <license>MIT</license>
+  <license>APL 2.0</license>
   <feature name="urn:AGL:widget:required-permission">
     <param name="urn:AGL:permission::public:no-htdocs" value="required" />
     <param name="urn:AGL:permission:afm:system:widget" value="required" /> <!-- list available apps -->
