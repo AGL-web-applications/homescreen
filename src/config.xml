@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="webapps-hvac" version="0.0.0">
-  <name>HVAC</name>
+<widget xmlns="http://www.w3.org/ns/widgets" id="webapps-html5-homescreen" version="1.0.0">
+  <name>Homescreen</name>
   <icon src="icon.svg"/>
   <content src="index.html" type="text/html"/>
-  <description>HTML5 HVAC demo</description>
+  <description>HTML5 Homescreen demo</description>
   <author>Igalia, S.L.</author>
   <license>APL 2.0</license>
   <feature name="urn:AGL:widget:required-permission">

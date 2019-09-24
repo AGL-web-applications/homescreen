@@ -1,17 +1,17 @@
 {
-    "name": "agl-hvac",
+    "name": "agl-homescreen",
     "version": "0.0.0",
-    "description": "HVAC project for AGL based on html5 technologies",
+    "description": "Homescreen project for AGL based on html5 technologies",
     "scripts": {
         "webpack": "webpack",
         "build": "webpack",
         "start": "webpack-dev-server"
     },
-    "homepage": "https://bitbucket.org/smarsol/hvac",
+    "homepage": "https://bitbucket.org/smarsol/homescreen",
     "author": "humberto.alfonso@asvito.es",
     "repository": {
         "type": "git",
-        "url": "git@bitbucket.org:smarsol/hvac.git"
+        "url": "git@bitbucket.org:smarsol/homescreen.git"
     },
     "keywords": [
         "agl",

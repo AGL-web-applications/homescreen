@@ -1,9 +1,14 @@
 $colors: (
   primary:          #00ADDC,
-  font:             #999999,
-  grey:             #848286
+  font:             #FFFFFF,
+  grey:             #848286,
+  button:           #313131,
+  background:       #363636
 );
+
+$height: 218px;
 
 @import "main.scss";
 @import "portrait.scss";
 @import "landscape.scss";
+@import "style.css";
