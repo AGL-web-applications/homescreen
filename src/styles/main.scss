@@ -31,7 +31,7 @@ body {
         .button {
             border-left: 1px solid map-get($colors, grey);
             border-right: 1px solid map-get($colors, grey);
-            flex: auto;
+            flex: 1 1 0px;
             text-align: center;
             background-color: map-get($colors, button);
 
