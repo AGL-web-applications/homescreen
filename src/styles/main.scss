@@ -2,53 +2,6 @@
     display: none;
 }
 
-input[type=range] {
-    -webkit-appearance: none;
-    width: 100%;
-    margin: 13.8px 0;
-    background: transparent;
-    z-index: 1000;
-}
-
-input[type=range]:focus {
-    outline: none;
-}
-
-input[type=range]::-webkit-slider-runnable-track {
-      width: 100%;
-      height: 8.4px;
-      cursor: pointer;
-      background: transparent;
-}
-
-input[type=range]::-webkit-slider-thumb {
-      height: 32px;
-      width: 32px;
-      border-radius: 16px;
-      background: #FFFFFF;
-      cursor: pointer;
-      -webkit-appearance: none;
-      margin-top: -14px;
-      z-index: 0;
-}
-
-progress {
-    -webkit-appearance: none;
-    height: 8.4px;
-    width: 100%;
-    margin-top: -22px;
-    position: absolute;
-    z-index: -1000;
-}
-
-::-webkit-progress-bar {
-    background: map-get($colors, grey);
-}
-
-::-webkit-progress-value {
-    background-color: map-get($colors, primary);
-}
-
 html {
     height: 100%;
     background-size: cover;
@@ -59,177 +12,91 @@ body {
     font-size: 1.2rem;
     font-family: Arial;
     color: map-get($colors, font);
-    margin: 5%;
+    margin: 0;
 
     a {
         color: map-get($colors, font);
-    }
-
-    .button {
-        &[value="true"] {
-            color: map-get($colors, primary);
-            .disabled {
-                display: none;
-            }
-            .enabled {
-                display: block;
-            }
-        }
-        &[value="false"] {
-            color: map-get($colors, grey);
-            .disabled {
-                display: block;
-            }
-            .enabled {
-                display: none;
-            }
-        }
+        text-decoration: none;
     }
 
     .top {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: $height;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-between;
-        align-items: center;
-        margin-top: 10%;
-        margin-bottom: 15%;
+        background-color: map-get($colors, background);
 
-        .icon {
-            flex-basis: 10%;
-        }
+        .button {
+            border-left: 1px solid map-get($colors, grey);
+            border-right: 1px solid map-get($colors, grey);
+            flex: auto;
+            text-align: center;
+            background-color: map-get($colors, button);
 
-        .fanSpeed {
-            flex-basis: 85%;
-            height: 100%;
-
-            .fanSpeedContainer {
-                position: relative;
+            .icon {
                 width: 100%;
-                height: 100%;
+                height: $height*0.70;
+                line-height: $height*0.70;
+                font-size: 90px;
+            }
+
+            .label {
+                width: 100%;
+                height: $height*0.30;
+                line-height: $height*0.30;
             }
         }
-    }
 
-    .center {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
-        height: 100%;
+        .infoContainer {
+            border-left: 1px solid map-get($colors, grey);
+            border-right: 1px solid map-get($colors, grey);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            width: 200px;
 
-        .item {
-            &:before {
-                content:'';
-                float:left;
-                padding-top:75%;
+            .day {
+                text-align: left;
+                width: 80%;
+                margin: 0 10%;
             }
 
-            &.ac, &.auto {
-                .label {
-                    font-weight: bold;
-                    font-size: 2.5rem;
-                    text-align: center;
-                    margin-top: -50%;
-                }
+            .hour {
+                font-size: 40px;
+                border-bottom: 1px solid map-get($colors, grey);
+                width: 80%;
+                margin: 0 10% 10px 10%;
+                padding: 10px 0;
             }
 
-            &.seat {
-                img {
-                    width: 50%;
-                    margin: 0 25%;
-                }
-
-                &[value="0"] {
-                    .one, .two {
-                        display: none;
-                    }
-                    .off {
-                        display: block;
-                    }
-                }
-
-                &[value="1"] {
-                    .off, .two {
-                        display: none;
-                    }
-                    .one {
-                        display: block;
-                    }
-                }
-
-                &[value="2"] {
-                    .one, .off {
-                        display: none;
-                    }
-                    .two {
-                        display: block;
-                    }
-                }
-
+            .wheater {
+                font-size: 30px;
+                letter-spacing: 2px;
             }
+        }
 
-            &.circulation {
-
-            }
-
-            &.block {
-                &:before {
-                    padding-top:150%;
-                }
-
-                .item {
-                    height: 50%;
-                    position: relative;
-                    float: left;
-                    width: 100%;
-                }
-            }
-
-            &.temperatures {
-                .temperatures-container {
-                    width: 100%;
-                    height: 240px;
-                    overflow-y: scroll;
-
-                    .temperature {
-                        &[enabled='true'] {
-                            color: map-get($colors, primary);
-                        }
-                        &[enabled='false'] {
-                            color: map-get($colors, grey);
-                        }
-                        font-size: 5rem;
-                        font-weight: bold;
-                        text-align: center;
-                        width: 100%;
-                    }
-                }
-            }
-
-            text-decoration: none;
-            flex-basis: 33%;
+        .statusContainer {
+            width: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+            font-size: 42px;
+            color: map-get($colors, grey);
         }
     }
 
     .bottom {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
-        height: 100%;
-        margin-top: 10%;
-
-        .button {
-            flex-basis: 20%;
-
-            img {
-                width: 80%;
-                margin: 0 10%;
-            }
-        }
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 214px;
+        background-image: url('../images/agl_logo.png');
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 
     .log {
