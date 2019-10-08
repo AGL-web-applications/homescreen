@@ -22,38 +22,16 @@
     </head>
     <body>
         <div class="top">
-            <a href="#" class="button">
-                <div class="icon icon-home">
+            <script id="app-template" type="x-tmpl-mustache">
+                <a href="#" class="button" id="app-{{id}}" app-id="{{ id }}" onclick="window.start(this);">
+                    <div class="{{ icon }}">
 
-                </div>
-                <div class="label">
-                    LAUNCHER
-                </div>
-            </a>
-            <a href="#" class="button">
-                <div class="icon icon-music">
-
-                </div>
-                <div class="label">
-                    MEDIAPLAYER
-                </div>
-            </a>
-            <a href="#" class="button">
-                <div class="icon icon-thermometer">
-
-                </div>
-                <div class="label">
-                    HVAC
-                </div>
-            </a>
-            <a href="#" class="button">
-                <div class="icon icon-location">
-
-                </div>
-                <div class="label">
-                    NAVIGATION
-                </div>
-            </a>
+                    </div>
+                    <div class="label">
+                        {{ name }}
+                    </div>
+                </a>
+            </script>
             <div class="infoContainer">
                 <div class="infoItem day">
                     TUESDAY

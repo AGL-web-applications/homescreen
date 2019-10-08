@@ -1,0 +1,20 @@
+{
+    "apps": [
+        {
+            "id": "launcher",
+            "icon": "icon icon-home"
+        },
+        {
+            "id": "mediaplayer",
+            "icon": "icon icon-music"
+        },
+        {
+            "id": "hvac",
+            "icon": "icon icon-thermometer"
+        },
+        {
+            "id": "navigation",
+            "icon": "icon icon-location"
+        }
+    ]
+}

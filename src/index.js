@@ -14,8 +14,10 @@
  * limitations under the License.
  */
 
-/* JS */
-import './js/AFB.js';
-
 /* CSS */
 import './styles/app.scss';
+import { init } from './js/main';
+import { start } from './js/apps';
+
+window.start = start;
+init();

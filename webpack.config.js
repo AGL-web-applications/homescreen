@@ -10,11 +10,7 @@ const ZipPlugin = require('zip-webpack-plugin');
 module.exports = {
     mode: 'production',
     entry: {
-        index: './src/index.js',
-        FANSPEED: './src/js/fan_speed.js',
-        CHAIR: './src/js/chair.js',
-        BUTTON: './src/js/buttons.js',
-        TEMPERATURE: './src/js/temperature.js'
+        index: './src/index.js'
     },
     output: {
         path: __dirname + '/dist',
