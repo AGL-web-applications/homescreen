@@ -44,10 +44,10 @@
                     20ºC
                 </div>
             </div>
-            <div class="statusContainer">
-                <div class="statusItem icon-bluetooth"></div>
-                <div class="statusItem icon-wifi"></div>
-                <div class="statusItem icon-signal"></div>
+            <div class="statusContainer" id="networkStatusContainer">
+                <script id="network-status-template" type="x-tmpl-mustache">
+                    <div class="statusItem {{icon}} {{#properties.connected}}connected{{/properties.connected}}"></div>
+                </script>
             </div>
         </div>
         <div class="bottom">

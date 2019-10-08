@@ -20,11 +20,14 @@ function load_application_list() {
         configjson.apps.forEach(function(app) {
             var internalApp = locateApp(app.id, result);
 
-            renderApp({
-                id: internalApp.id,
-                name: internalApp.name,
-                icon: app.icon
-            });
+            if( internalApp ) {
+                renderApp({
+                    id: internalApp.id,
+                    name: internalApp.name,
+                    icon: app.icon
+                });
+            }
+
         });
     });
 }

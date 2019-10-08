@@ -16,5 +16,12 @@
             "id": "navigation",
             "icon": "icon icon-location"
         }
-    ]
+    ],
+    "network": {
+        "bluetooth": "icon-bluetooth",
+        "ethernet": "icon-ethernet",
+        "wifi": "icon-wifi",
+        "p2p": "icon-p2p",
+        "cellular": "icon-signal"
+    }
 }
