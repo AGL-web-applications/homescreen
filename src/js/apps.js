@@ -26,6 +26,12 @@ function load_application_list() {
                     name: internalApp.name,
                     icon: app.icon
                 });
+
+                if( app.id === configjson.launch ) {
+                    afmMain.start(internalApp.id).then(function(result) {
+                        console.log("success: " + result);
+                    });
+                }
             }
 
         });

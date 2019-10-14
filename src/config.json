@@ -1,10 +1,6 @@
 {
     "apps": [
         {
-            "id": "launcher",
-            "icon": "icon icon-home"
-        },
-        {
             "id": "mediaplayer",
             "icon": "icon icon-music"
         },
@@ -15,8 +11,13 @@
         {
             "id": "navigation",
             "icon": "icon icon-location"
+        },
+        {
+            "id": "webapps-html5-launcher",
+            "icon": "icon icon-home"
         }
     ],
+    "launch": "webapps-html5-launcher",
     "network": {
         "bluetooth": "icon-bluetooth",
         "ethernet": "icon-ethernet",
