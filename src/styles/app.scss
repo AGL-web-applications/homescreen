@@ -5,10 +5,36 @@ $colors: (
   button:           #313131,
   background:       #363636
 );
+@media (max-device-width: 720px) and (orientation: portrait) {
+    $header_size: 145px;
 
-$header_size: 218px;
+    @import "main.scss";
+    @import "portrait.scss";
+    @import "720.scss";
+}
 
-@import "main.scss";
-@import "portrait.scss";
-@import "landscape.scss";
+@media (max-device-width: 1280px) and (orientation: landscape) {
+    $header_size: 145px;
+
+    @import "main.scss";
+    @import "landscape.scss";
+    @import "720.scss";
+}
+
+@media (min-device-width: 1080px) and (orientation: portrait) {
+    $header_size: 218px;
+
+    @import "main.scss";
+    @import "portrait.scss";
+    @import "1080.scss";
+}
+
+@media (min-device-width: 1920px) and (orientation: landscape) {
+    $header_size: 218px;
+
+    @import "main.scss";
+    @import "landscape.scss";
+    @import "1080.scss";
+}
+
 @import "style.css";
