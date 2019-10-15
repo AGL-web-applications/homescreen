@@ -5,8 +5,26 @@
     }
 
     body {
-        .center {
+        .top{
             width: 100%;
+            height: $header_size;
+            flex-direction: row;
+
+            .button {
+                border-width: 0 1px 0 1px;
+            }
+
+            .infoContainer {
+                border-width: 0 1px 0 1px;
+                width: 200px;
+            }
+
+            .statusContainer {
+                width: 60px;
+                height: 100%;
+                flex-direction: column;
+            }
         }
+
     }
 }

@@ -22,41 +22,38 @@ body {
     .top {
         position: absolute;
         top: 0;
-        width: 100%;
-        height: $height;
         display: flex;
         justify-content: space-between;
         background-color: map-get($colors, background);
 
         .button {
-            border-left: 1px solid map-get($colors, grey);
-            border-right: 1px solid map-get($colors, grey);
+            border-color: map-get($colors, grey);
+            border-style: solid;
             flex: 1 1 0px;
             text-align: center;
             background-color: map-get($colors, button);
 
             .icon {
                 width: 100%;
-                height: $height*0.70;
-                line-height: $height*0.70;
+                height: $header_size*0.70;
+                line-height: $header_size*0.70;
                 font-size: 90px;
             }
 
             .label {
                 width: 100%;
-                height: $height*0.30;
-                line-height: $height*0.30;
+                height: $header_size*0.30;
+                line-height: $header_size*0.30;
             }
         }
 
         .infoContainer {
-            border-left: 1px solid map-get($colors, grey);
-            border-right: 1px solid map-get($colors, grey);
+            border-color: map-get($colors, grey);
+            border-style: solid;
             display: flex;
             flex-direction: column;
             justify-content: center;
             text-align: center;
-            width: 200px;
 
             .day {
                 text-align: left;
@@ -79,9 +76,7 @@ body {
         }
 
         .statusContainer {
-            width: 60px;
             display: flex;
-            flex-direction: column;
             justify-content: space-around;
             text-align: center;
             font-size: 42px;
