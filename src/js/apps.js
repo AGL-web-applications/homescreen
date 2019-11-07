@@ -1,4 +1,4 @@
-import { afmMain } from 'agl-js-api';
+import { homescreen, afmMain } from 'agl-js-api';
 import Mustache from 'mustache';
 
 var configjson = require('../config.json');
@@ -40,7 +40,7 @@ function load_application_list() {
 
 export function start(node) {
     var appId = node.getAttribute('app-id');
-    afmMain.start(appId).then(function(result) {
+    homescreen.showWindow(appId.split('@')[0]).then(function(result) {
         console.log("success: " + result);
     });
 }
