@@ -32,17 +32,19 @@
                     </div>
                 </a>
             </script>
-            <div class="infoContainer">
-                <div class="infoItem day">
-                    TUESDAY
-                </div>
-                <div class="infoItem hour">
-                    7:26 AM
-                </div>
-                <div class="infoItem wheater">
-                    <span class="icon-rainy"></span>
-                    20ºC
-                </div>
+            <div class="infoContainer" id="timeContainer">
+                <script id="time-template" type="x-tmpl-mustache">
+                    <div class="infoItem day">
+                        {{ day }}
+                    </div>
+                    <div class="infoItem hour">
+                        {{ hour }}
+                    </div>
+                    <div class="infoItem wheater">
+                        <span class="icon-rainy"></span>
+                        20ºC
+                    </div>
+                </script>
             </div>
             <div class="statusContainer" id="networkStatusContainer">
                 <script id="network-status-template" type="x-tmpl-mustache">
