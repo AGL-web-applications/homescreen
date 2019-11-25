@@ -7,6 +7,7 @@
   <author>Igalia, S.L.</author>
   <license>APL 2.0</license>
   <feature name="urn:AGL:widget:required-permission">
+    <param name="urn:AGL:permission::system:run-by-default" value="required" />
     <param name="urn:AGL:permission::public:no-htdocs" value="required" />
     <param name="urn:AGL:permission::public:display" value="required" />
     <param name="urn:AGL:permission::public:audio" value="required" />
