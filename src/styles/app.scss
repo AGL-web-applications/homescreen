@@ -5,6 +5,7 @@ $colors: (
   button:           #313131,
   background:       #363636
 );
+@import "~bootstrap/scss/bootstrap";
 @media (max-device-width: 720px) and (orientation: portrait) {
     $header_size: 145px;
 
