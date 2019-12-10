@@ -2,27 +2,27 @@
     "apps": [
         {
             "id": "webapps-mediaplayer",
-            "icon": "icon icon-music"
+            "icon": "fas fa-music"
         },
         {
             "id": "webapps-hvac",
-            "icon": "icon icon-thermometer"
+            "icon": "fas fa-thermometer-half"
         },
         {
             "id": "navigation",
-            "icon": "icon icon-location"
+            "icon": "fas fa-location-arrow"
         },
         {
             "id": "webapps-html5-launcher",
-            "icon": "icon icon-home"
+            "icon": "fas fa-home"
         }
     ],
     "launch": "webapps-html5-launcher",
     "network": {
-        "bluetooth": "icon-bluetooth",
-        "ethernet": "icon-ethernet",
-        "wifi": "icon-wifi",
-        "p2p": "icon-p2p",
-        "cellular": "icon-signal"
+        "bluetooth": "fab fa-bluetooth-b",
+        "ethernet": "fas fa-network-wired",
+        "wifi": "fas fa-wifi",
+        "p2p": "fas fa-laptop",
+        "cellular": "fas fa-mobile-alt"
     }
 }
