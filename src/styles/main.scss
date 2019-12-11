@@ -8,12 +8,28 @@ html {
     -webkit-overflow-scrolling: touch;
 }
 
+@keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+}
+
 body {
     font-family: Arial;
     color: map-get($colors, font);
     margin: 0;
 
     a {
+        color: map-get($colors, font);
+        text-decoration: none;
+    }
+
+    a:hover {
         color: map-get($colors, font);
         text-decoration: none;
     }
@@ -35,7 +51,7 @@ body {
                 flex: 1 1 0px;
                 text-align: center;
                 background-color: map-get($colors, button);
-    
+                
                 .icon {
                     width: 100%;
                     height: $header_size*0.70;
@@ -76,6 +92,14 @@ body {
             .wheater {
                 font-size: 1.5em;
                 letter-spacing: 2px;
+                height: 50px;
+
+                .weatherItem {
+                    animation-name: zoomIn;
+                    animation-iteration-count: 1;
+                    animation-duration: 1s;
+                    animation-delay: 0s;
+                }
             }
         }
 
