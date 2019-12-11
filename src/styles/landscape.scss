@@ -11,9 +11,15 @@
             height: 100%;
             flex-direction: column;
 
-            .button {
-                border-width: 1px 0 1px 0;
-                order: 2;
+            .appsContainer {
+                flex-direction: column;
+                .button {
+                    border-width: 1px 0 1px 0;
+                    order: 2;
+                    .label {
+                        display: none;
+                    }
+                }
             }
 
             .infoContainer {

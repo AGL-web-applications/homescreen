@@ -1,20 +1,20 @@
 {
     "apps": [
         {
-            "id": "webapps-mediaplayer",
-            "icon": "fas fa-music"
-        },
-        {
-            "id": "webapps-hvac",
-            "icon": "fas fa-thermometer-half"
+            "id": "webapps-html5-launcher",
+            "icon": "fas fa-home"
         },
         {
             "id": "navigation",
             "icon": "fas fa-location-arrow"
         },
         {
-            "id": "webapps-html5-launcher",
-            "icon": "fas fa-home"
+            "id": "webapps-hvac",
+            "icon": "fas fa-thermometer-half"
+        },
+        {
+            "id": "webapps-mediaplayer",
+            "icon": "fas fa-music"
         }
     ],
     "launch": "webapps-html5-launcher",

@@ -42,6 +42,11 @@ module.exports = {
                 from: 'src/images/*',
                 to: 'images/',
                 flatten: true
+            },
+            {
+                from: 'src/templates/*',
+                to: 'templates/',
+                flatten: true
             }
         ]),
         new HtmlWebpackPlugin({
