@@ -16,8 +16,12 @@
 
 /* CSS */
 import './styles/app.scss';
-import { init } from './js/main';
-import { start } from './js/apps';
 
-window.start = start;
-init();
+import { api } from 'agl-js-api';
+
+import * as app from './js/app';
+import * as apps from './js/apps';
+
+window.apps = apps;
+api.init();
+app.init();

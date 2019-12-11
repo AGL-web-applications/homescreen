@@ -25,24 +25,29 @@ body {
         justify-content: space-between;
         background-color: map-get($colors, background);
 
-        .button {
-            border-color: map-get($colors, grey);
-            border-style: solid;
+        .appsContainer {
+            display: flex;
+            justify-content: space-between;
             flex: 1 1 0px;
-            text-align: center;
-            background-color: map-get($colors, button);
-
-            .icon {
-                width: 100%;
-                height: $header_size*0.70;
-                line-height: $header_size*0.70;
-                font-size: 5em;
-            }
-
-            .label {
-                width: 100%;
-                height: $header_size*0.30;
-                line-height: $header_size*0.30;
+            .button {
+                border-color: map-get($colors, grey);
+                border-style: solid;
+                flex: 1 1 0px;
+                text-align: center;
+                background-color: map-get($colors, button);
+    
+                .icon {
+                    width: 100%;
+                    height: $header_size*0.70;
+                    line-height: $header_size*0.70;
+                    font-size: 5em;
+                }
+    
+                .label {
+                    width: 100%;
+                    height: $header_size*0.30;
+                    line-height: $header_size*0.30;
+                }
             }
         }
 

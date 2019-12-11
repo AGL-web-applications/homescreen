@@ -1,0 +1,10 @@
+{{ #apps }}
+    <a href="#" class="button" id="app-{{id}}" app-id="{{ id }}" onclick="apps.start('{{id}}');">
+        <div class="icon {{ icon }}">
+
+        </div>
+        <div class="label">
+            {{ name }}
+        </div>
+    </a>
+{{ /apps }}

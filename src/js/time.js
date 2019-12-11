@@ -1,8 +1,24 @@
+import { load as load_template } from './templates';
 import Mustache from 'mustache';
 
 var template;
+var root;
+var page = {
+    date: {
+        day: '',
+        hour: ''
+    },
+    weather: {
+        icon: 'fas fa-cloud-sun-rain',
+        temperature: '20ºC'
+    }
+}
 
 var days = ['SUNDAY', 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY'];
+
+function show() {
+    root.innerHTML = Mustache.render(template, page);
+}
 
 function formatAMPM(date) {
     var hours = date.getHours();
@@ -18,16 +34,19 @@ function formatAMPM(date) {
 function initInterval() {
     setInterval(function() {
         var date = new Date();
-        document.getElementById('timeContainer').innerHTML = Mustache.render(template, {
-            day: days[date.getDay()],
-            hour: formatAMPM(date)
-        });
+        page.date.day = days[date.getDay()],
+        page.date.hour = formatAMPM(date);
+        show();
     }, 1000);
 }
 
-export function init() {
-    template = document.getElementById('time-template').innerHTML;
-    Mustache.parse(template);
-
-    initInterval();
+export function init(node) {
+    load_template('time.template.html').then(function(result) {
+        template = result;
+        root = node;
+        Mustache.parse(template);
+        initInterval();
+    }, function(error) {
+        console.error('ERRROR loading main template', error);
+    });
 }

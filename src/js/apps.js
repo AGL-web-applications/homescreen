@@ -1,12 +1,16 @@
+import { load as load_template } from './templates';
 import { homescreen, afmMain } from 'agl-js-api';
 import Mustache from 'mustache';
 
 var configjson = require('../config.json');
 var template;
-var parent;
+var root;
+var page = {
+    apps: []
+};
 
-function renderApp(app) {
-    parent.innerHTML = Mustache.render(template, app) + parent.innerHTML;
+function show() {
+    root.innerHTML = Mustache.render(template, page);
 }
 
 function locateApp(appId, appList) {
@@ -21,7 +25,7 @@ function load_application_list() {
             var internalApp = locateApp(app.id, result);
 
             if( internalApp ) {
-                renderApp({
+                page.apps.push({
                     id: internalApp.id,
                     name: internalApp.name,
                     icon: app.icon
@@ -35,19 +39,24 @@ function load_application_list() {
             }
 
         });
+
+        show();
     });
 }
 
-export function start(node) {
-    var appId = node.getAttribute('app-id');
+export function start(appId) {
     homescreen.showWindow(appId.split('@')[0]).then(function(result) {
         console.log("success: " + result);
     });
 }
 
-export function init() {
-    template = document.getElementById('app-template').innerHTML;
-    parent = document.getElementById('app-template').parentNode
-    Mustache.parse(template);
-    load_application_list();
+export function init(node) {
+    load_template('apps.template.html').then(function(result) {
+        template = result;
+        root = node;
+        Mustache.parse(template);
+        load_application_list();
+    }, function(error) {
+        console.error('ERRROR loading main template', error);
+    });
 }
