@@ -5,6 +5,34 @@
     {{ date.hour }}
 </div>
 <div class="infoItem wheater">
-    <i class="{{ weather.icon }}"></i>
-    {{ weather.temperature }}
+    {{ #showTemperature }}
+        <div class="temperature weatherItem">
+            <img src="http://openweathermap.org/img/wn/{{ weather.weather.0.icon }}.png">
+            {{ weather.main.temp }}ºF
+        </div>
+    {{ /showTemperature }}
+    {{ #showWind }}
+        <div class="wind weatherItem">
+            <i class="fas fa-wind"></i>
+            {{ weather.wind.speed }}KMH
+        </div>
+    {{ /showWind }}
+    {{ #showPosition }}
+        <div class="position weatherItem">
+            <i class="fas fa-map-marker-alt"></i>
+            {{ weather.name }}
+        </div>
+    {{ /showPosition }}
+    {{ #showHumidity }}
+        <div class="humidity weatherItem">
+            <i class="fas fa-tint"></i>
+            {{ weather.main.humidity }}%
+        </div>
+    {{ /showHumidity }}
+    {{ #showDescription }}
+        <div class="description weatherItem">
+            <i class="fas fa-info-circle"></i>
+            {{ weather.weather.0.description }}
+        </div>
+    {{ /showDescription}}
 </div>
