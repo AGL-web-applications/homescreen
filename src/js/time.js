@@ -5,6 +5,7 @@ import { weather } from 'agl-js-api';
 var template;
 var root;
 var counter = 0;
+var interval;
 var updateTime = 10000;
 var page = {
     date: {
@@ -65,7 +66,8 @@ function update() {
 }
 
 function initInterval() {
-    setInterval(update, updateTime);
+    clearInterval(interval);
+    interval = setInterval(update, updateTime);
 }
 
 export function init(node) {
@@ -78,4 +80,11 @@ export function init(node) {
     }, function(error) {
         console.error('ERRROR loading main template', error);
     });
+}
+
+export function refresh() {
+    clearInterval();
+    counter = 0;
+    update();
+    initInterval();
 }
