@@ -5,8 +5,8 @@
             "icon": "fas fa-home"
         },
         {
-            "id": "navigation",
-            "icon": "fas fa-location-arrow"
+            "id": "browser",
+            "icon": "fab fa-chrome"
         },
         {
             "id": "webapps-hvac",
