@@ -6,6 +6,8 @@
   <description>HTML5 Homescreen demo</description>
   <author>Igalia, S.L.</author>
   <license>APL 2.0</license>
+  <surface role="panel" panel="left"/>
+  <window width="218"/>
   <feature name="urn:AGL:widget:required-permission">
     <param name="urn:AGL:permission::system:run-by-default" value="required" />
     <param name="urn:AGL:permission::public:no-htdocs" value="required" />
