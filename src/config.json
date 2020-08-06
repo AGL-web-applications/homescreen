@@ -17,6 +17,7 @@
             "icon": "fas fa-music"
         }
     ],
+    "background": "webapps-html5-background",
     "launch": "webapps-html5-launcher",
     "network": {
         "bluetooth": "fab fa-bluetooth-b",

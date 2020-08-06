@@ -22,8 +22,10 @@ import { api } from 'agl-js-api';
 import * as app from './js/app';
 import * as apps from './js/apps';
 import * as time from './js/time';
+import * as background from './js/background';
 
 window.apps = apps;
 window.time = time;
 api.init();
+background.load();
 app.init();
