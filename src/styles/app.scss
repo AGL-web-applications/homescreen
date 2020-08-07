@@ -6,35 +6,12 @@ $colors: (
   background:       #363636
 );
 @import "~bootstrap/scss/bootstrap";
-@media (max-device-width: 720px) and (orientation: portrait) {
-    $header_size: 145px;
-
-    @import "main.scss";
-    @import "portrait.scss";
-    @import "720.scss";
-}
-
-@media (max-device-width: 1280px) and (orientation: landscape) {
-    $header_size: 145px;
-
-    @import "main.scss";
-    @import "landscape.scss";
-    @import "720.scss";
-}
-
-@media (min-device-width: 1080px) and (orientation: portrait) {
-    $header_size: 218px;
-
-    @import "main.scss";
-    @import "portrait.scss";
-    @import "1080.scss";
-}
-
-@media (min-device-width: 1920px) and (orientation: landscape) {
+@media all {
     $header_size: 218px;
 
     @import "main.scss";
     @import "landscape.scss";
     @import "1080.scss";
 }
+
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
